@@ -79,7 +79,7 @@ Update:
 
 ---
 
-## License & credits
+## MIT License
 
 Educational project. Feel free to reuse for learning and experimentation.
 
