@@ -8,7 +8,7 @@ This repository contains a small neural network implemented from scratch (pure N
 
 - `train.csv` - original MNIST-style dataset where each row is `[label, pixel1, pixel2, ..., pixel784]`
 - `test.csv` - original MNIST-style dataset where each row is `[label, pixel1, pixel2, ..., pixel784]` But not implemented yet.
-- `train_from_scratch.py` — main code
+- `handwritten-digit-nn-pure-numpy.ipynb` — main code
 - `README.md` — this file.
 
 ---
