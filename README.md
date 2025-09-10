@@ -1,4 +1,4 @@
-# MNIST from-scratch neural network
+# Neural network from scratch with NumPy
 
 This repository contains a small neural network implemented from scratch (pure NumPy and Algebra) to classify handwritten digits from the MNIST-format CSV (`train.csv`). The goal is educational: implement forward/backward propagation and training using raw linear algebra and basic Python/NumPy.
 
@@ -67,7 +67,6 @@ Update:
 1. Put `train.csv` in `./data/train.csv` (same structure you used before).
 2. Go to the `handwritten-digit-nn-pure-numpy.ipynb` notebook.
 3. Run all cells step by step and at the end you can use our train returned matrix on `dev` set and also test on each individual example.
-
 
 ## Extending the project
 
