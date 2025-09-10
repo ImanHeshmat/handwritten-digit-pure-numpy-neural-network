@@ -25,7 +25,7 @@ This repository contains a small neural network implemented from scratch (pure N
 - **Loss:** cross-entropy loss (softmax + CE)
 - **Optimizer:** vanilla SGD (single global learning rate `alpha`) on full dataset (no explicit mini-batches in original script)
 
-> I wrote the implementation for educational purposes and report \~82.9% dev accuracy, which is a good result for this simple architecture.
+> I wrote the implementation for educational purposes and report \~80% dev accuracy, which is a good result for this simple architecture.
 
 ---
 
@@ -64,9 +64,11 @@ Update:
 
 ## How to run
 
-1. Put `train.csv` in `./data/train.csv` (same structure you used before).
-2. Go to the `handwritten-digit-nn-pure-numpy.ipynb` notebook.
-3. Run all cells step by step and at the end you can use our train returned matrix on `dev` set and also test on each individual example.
+1. Put `train.csv` in `./data/train.csv`.
+2. Install requirements in your environment.
+3. Go to the `handwritten-digit-nn-pure-numpy.ipynb` notebook.
+4. Run all cells end-to-end.
+5. After training with `gradient_descent` function, use the helper to check accuracy on the dev set or test individual examples.
 
 ## Extending the project
 
